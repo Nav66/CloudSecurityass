@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload</title>
+</head>
+<body>
+    <header>
+        <a href="/">Register</a>
+        <a href="/login">Login</a>
+    </header>
+    <br>
+    <form action="/uploadtocloud" method="post" enctype="multipart/form-data">
+    
+    <label for="file">Upload File:</label>
+    <input type="file" name="inputfile" id="inputfile">
+    <br>
+    <hr>
+    <label for="emailone">Email 1:</label>
+    <input type="text" name="emailone" placeholder="Enter Emailid">
+    <br>
+    <hr>
+    <label for="emailtwo">Email 2:</label>
+    <input type="text" name="emailtwo" placeholder="Enter Emailid">
+    <br>
+    <hr>
+    <label for="emailthree">Email 3:</label>
+    <input type="text" name="emailthree" placeholder="Enter Emailid">
+    <br>
+    <hr>
+    <label for="emailfour">Email 4:</label>
+    <input type="text" name="emailfour" placeholder="Enter Emailid">
+    <br>
+    <hr>
+    <label for="emailone">Email 5:</label>
+    <input type="text" name="emailfive" placeholder="Enter Emailid">
+    <br>
+    <hr>    
+    <input type="submit" value="upload">
+    </form>
+</body>
+</html>

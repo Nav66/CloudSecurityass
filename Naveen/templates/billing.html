@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing</title>
+</head>
+<body>
+    <header>
+        <a href="/">Register</a>
+        <a href="/login">Login</a>
+    </header>
+    <br>
+    {% for item in files %}
+        {{ item[0] }} {{ item[1] }} <br>
+    {% endfor %}
+    
+</body>
+</html>
